@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useReducer } from "react";
 import { FlatList, StyleSheet, View, Button, Text } from "react-native";
 
-const ColorCounter = ({ color, Increase, Decrease }) => {
+const ColorCounter = ({ color, Increase, Decrease, Reset }) => {
   return (
     <View>
       <Text>{color}</Text>
